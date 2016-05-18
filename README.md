@@ -2,4 +2,4 @@
 
 自定义App设置页面方便使用
 
-使用时只需要新建设置页面时集成BaseController
+使用时只需要新建设置页面时继承BaseController
