@@ -7,6 +7,7 @@
 //
 
 #import "ZHYSettingController.h"
+#import "ZHYTestController.h"
 #import <Masonry.h>
 
 @interface ZHYSettingController ()
@@ -37,6 +38,14 @@
     
 }
 
+- (void)viewWillAppear:(BOOL)animated{
+
+    [super viewWillAppear:animated];
+    
+    self.navigationController.navigationBar.hidden = YES;
+
+}
+
 - (void)closeButtonClick{
 
     [self dismissViewControllerAnimated:YES completion:^{
@@ -48,8 +57,9 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
 
+    ZHYTestController * vc = [[ZHYTestController alloc] init];
     
-    //[self.navigationController pushViewController:<#(nonnull UIViewController *)#> animated:YES];
+    [self.navigationController pushViewController:vc animated:YES];
 
 }
 @end

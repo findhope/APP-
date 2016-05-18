@@ -15,6 +15,7 @@
 
     ZHYGroups * groupItems = [[ZHYGroups alloc] init];
     groupItems.kItems = items;
+    
     return groupItems;
 }
 @end

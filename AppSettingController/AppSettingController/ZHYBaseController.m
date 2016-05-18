@@ -40,12 +40,15 @@
     UITableView * tableView = [[UITableView alloc] initWithFrame:frame style:style];
     [self.view addSubview:tableView];
     self.kTableView = tableView;
+    self.kTableView.delegate = self;
+    self.kTableView.dataSource = self;
+    self.kTableView.rowHeight = 44;
 
 }
 
 - (NSMutableArray *)kGroups{
 
-    if (_kGroups) {
+    if (!_kGroups) {
         _kGroups = [NSMutableArray array];
     }
     return _kGroups;
@@ -93,6 +96,9 @@
     if ([item isKindOfClass:[ZHYArrowItem class]]) {
         if (item.pushVcClass) {
             UIViewController * vc = [[item.pushVcClass alloc] init];
+            
+            vc.view.backgroundColor = [UIColor purpleColor];
+            
             [self.navigationController pushViewController:vc animated:YES];
         }
     }

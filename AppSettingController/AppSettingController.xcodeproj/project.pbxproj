@@ -21,6 +21,7 @@
 		0AEF9D231CEC2B8000E2A1D0 /* ZHYArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF9D221CEC2B8000E2A1D0 /* ZHYArrowItem.m */; };
 		0AEF9D261CEC2BA200E2A1D0 /* ZHYSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF9D251CEC2BA200E2A1D0 /* ZHYSwitchItem.m */; };
 		0AEF9D291CEC2CA100E2A1D0 /* ZHYSelectItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF9D281CEC2CA100E2A1D0 /* ZHYSelectItem.m */; };
+		0AEF9D2C1CEC2FB900E2A1D0 /* ZHYTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF9D2B1CEC2FB900E2A1D0 /* ZHYTestController.m */; };
 		F11058EB3167B63DD40702C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B537228E5181A54F80340F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		0AEF9D251CEC2BA200E2A1D0 /* ZHYSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYSwitchItem.m; sourceTree = "<group>"; };
 		0AEF9D271CEC2CA100E2A1D0 /* ZHYSelectItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYSelectItem.h; sourceTree = "<group>"; };
 		0AEF9D281CEC2CA100E2A1D0 /* ZHYSelectItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYSelectItem.m; sourceTree = "<group>"; };
+		0AEF9D2A1CEC2FB900E2A1D0 /* ZHYTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYTestController.h; sourceTree = "<group>"; };
+		0AEF9D2B1CEC2FB900E2A1D0 /* ZHYTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYTestController.m; sourceTree = "<group>"; };
 		9E64353979EA2558E10839C0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C41A18B5F9FE7ACC36ED79CE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D9B537228E5181A54F80340F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +122,8 @@
 				0AEF9D021CEBF84800E2A1D0 /* ZHYNavController.m */,
 				0AEF9D041CEBF86E00E2A1D0 /* ZHYSettingController.h */,
 				0AEF9D051CEBF86E00E2A1D0 /* ZHYSettingController.m */,
+				0AEF9D2A1CEC2FB900E2A1D0 /* ZHYTestController.h */,
+				0AEF9D2B1CEC2FB900E2A1D0 /* ZHYTestController.m */,
 			);
 			name = Demo;
 			sourceTree = "<group>";
@@ -316,6 +321,7 @@
 			files = (
 				0AEF9D291CEC2CA100E2A1D0 /* ZHYSelectItem.m in Sources */,
 				0AEF9D0A1CEC05A000E2A1D0 /* ZHYBaseController.m in Sources */,
+				0AEF9D2C1CEC2FB900E2A1D0 /* ZHYTestController.m in Sources */,
 				0AD2D0531CEBF520002771E7 /* AppDelegate.m in Sources */,
 				0AEF9D031CEBF84800E2A1D0 /* ZHYNavController.m in Sources */,
 				0AEF9D061CEBF86E00E2A1D0 /* ZHYSettingController.m in Sources */,
