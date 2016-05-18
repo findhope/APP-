@@ -14,6 +14,13 @@
 		0AD2D0681CEBF634002771E7 /* ZHYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD2D0671CEBF634002771E7 /* ZHYViewController.m */; };
 		0AEF9D031CEBF84800E2A1D0 /* ZHYNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF9D021CEBF84800E2A1D0 /* ZHYNavController.m */; };
 		0AEF9D061CEBF86E00E2A1D0 /* ZHYSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF9D051CEBF86E00E2A1D0 /* ZHYSettingController.m */; };
+		0AEF9D0A1CEC05A000E2A1D0 /* ZHYBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF9D091CEC05A000E2A1D0 /* ZHYBaseController.m */; };
+		0AEF9D111CEC11DA00E2A1D0 /* ZHYGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF9D101CEC11DA00E2A1D0 /* ZHYGroups.m */; };
+		0AEF9D171CEC149900E2A1D0 /* ZHYBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF9D161CEC149900E2A1D0 /* ZHYBaseCell.m */; };
+		0AEF9D1A1CEC14E400E2A1D0 /* ZHYBaseCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF9D191CEC14E400E2A1D0 /* ZHYBaseCellItem.m */; };
+		0AEF9D231CEC2B8000E2A1D0 /* ZHYArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF9D221CEC2B8000E2A1D0 /* ZHYArrowItem.m */; };
+		0AEF9D261CEC2BA200E2A1D0 /* ZHYSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF9D251CEC2BA200E2A1D0 /* ZHYSwitchItem.m */; };
+		0AEF9D291CEC2CA100E2A1D0 /* ZHYSelectItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF9D281CEC2CA100E2A1D0 /* ZHYSelectItem.m */; };
 		F11058EB3167B63DD40702C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B537228E5181A54F80340F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +38,20 @@
 		0AEF9D021CEBF84800E2A1D0 /* ZHYNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYNavController.m; sourceTree = "<group>"; };
 		0AEF9D041CEBF86E00E2A1D0 /* ZHYSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYSettingController.h; sourceTree = "<group>"; };
 		0AEF9D051CEBF86E00E2A1D0 /* ZHYSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYSettingController.m; sourceTree = "<group>"; };
+		0AEF9D081CEC05A000E2A1D0 /* ZHYBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYBaseController.h; sourceTree = "<group>"; };
+		0AEF9D091CEC05A000E2A1D0 /* ZHYBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYBaseController.m; sourceTree = "<group>"; };
+		0AEF9D0F1CEC11DA00E2A1D0 /* ZHYGroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYGroups.h; sourceTree = "<group>"; };
+		0AEF9D101CEC11DA00E2A1D0 /* ZHYGroups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYGroups.m; sourceTree = "<group>"; };
+		0AEF9D151CEC149900E2A1D0 /* ZHYBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYBaseCell.h; sourceTree = "<group>"; };
+		0AEF9D161CEC149900E2A1D0 /* ZHYBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYBaseCell.m; sourceTree = "<group>"; };
+		0AEF9D181CEC14E400E2A1D0 /* ZHYBaseCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYBaseCellItem.h; sourceTree = "<group>"; };
+		0AEF9D191CEC14E400E2A1D0 /* ZHYBaseCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYBaseCellItem.m; sourceTree = "<group>"; };
+		0AEF9D211CEC2B8000E2A1D0 /* ZHYArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYArrowItem.h; sourceTree = "<group>"; };
+		0AEF9D221CEC2B8000E2A1D0 /* ZHYArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYArrowItem.m; sourceTree = "<group>"; };
+		0AEF9D241CEC2BA200E2A1D0 /* ZHYSwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYSwitchItem.h; sourceTree = "<group>"; };
+		0AEF9D251CEC2BA200E2A1D0 /* ZHYSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYSwitchItem.m; sourceTree = "<group>"; };
+		0AEF9D271CEC2CA100E2A1D0 /* ZHYSelectItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYSelectItem.h; sourceTree = "<group>"; };
+		0AEF9D281CEC2CA100E2A1D0 /* ZHYSelectItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYSelectItem.m; sourceTree = "<group>"; };
 		9E64353979EA2558E10839C0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C41A18B5F9FE7ACC36ED79CE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D9B537228E5181A54F80340F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +90,7 @@
 		0AD2D04D1CEBF520002771E7 /* AppSettingController */ = {
 			isa = PBXGroup;
 			children = (
+				0AEF9D0B1CEC118D00E2A1D0 /* ZHYBase */,
 				0AD2D0651CEBF53B002771E7 /* Demo */,
 			);
 			path = AppSettingController;
@@ -99,6 +121,59 @@
 				0AEF9D051CEBF86E00E2A1D0 /* ZHYSettingController.m */,
 			);
 			name = Demo;
+			sourceTree = "<group>";
+		};
+		0AEF9D071CEC025300E2A1D0 /* ZHYBaseController */ = {
+			isa = PBXGroup;
+			children = (
+				0AEF9D081CEC05A000E2A1D0 /* ZHYBaseController.h */,
+				0AEF9D091CEC05A000E2A1D0 /* ZHYBaseController.m */,
+			);
+			name = ZHYBaseController;
+			sourceTree = "<group>";
+		};
+		0AEF9D0B1CEC118D00E2A1D0 /* ZHYBase */ = {
+			isa = PBXGroup;
+			children = (
+				0AEF9D0E1CEC11B700E2A1D0 /* View */,
+				0AEF9D0D1CEC11AE00E2A1D0 /* Model */,
+				0AEF9D0C1CEC11A100E2A1D0 /* Controller */,
+			);
+			name = ZHYBase;
+			sourceTree = "<group>";
+		};
+		0AEF9D0C1CEC11A100E2A1D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0AEF9D071CEC025300E2A1D0 /* ZHYBaseController */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0AEF9D0D1CEC11AE00E2A1D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AEF9D0F1CEC11DA00E2A1D0 /* ZHYGroups.h */,
+				0AEF9D101CEC11DA00E2A1D0 /* ZHYGroups.m */,
+				0AEF9D181CEC14E400E2A1D0 /* ZHYBaseCellItem.h */,
+				0AEF9D191CEC14E400E2A1D0 /* ZHYBaseCellItem.m */,
+				0AEF9D211CEC2B8000E2A1D0 /* ZHYArrowItem.h */,
+				0AEF9D221CEC2B8000E2A1D0 /* ZHYArrowItem.m */,
+				0AEF9D241CEC2BA200E2A1D0 /* ZHYSwitchItem.h */,
+				0AEF9D251CEC2BA200E2A1D0 /* ZHYSwitchItem.m */,
+				0AEF9D271CEC2CA100E2A1D0 /* ZHYSelectItem.h */,
+				0AEF9D281CEC2CA100E2A1D0 /* ZHYSelectItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0AEF9D0E1CEC11B700E2A1D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AEF9D151CEC149900E2A1D0 /* ZHYBaseCell.h */,
+				0AEF9D161CEC149900E2A1D0 /* ZHYBaseCell.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		2495D5624664BA02534B95FC /* Pods */ = {
@@ -239,11 +314,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AEF9D291CEC2CA100E2A1D0 /* ZHYSelectItem.m in Sources */,
+				0AEF9D0A1CEC05A000E2A1D0 /* ZHYBaseController.m in Sources */,
 				0AD2D0531CEBF520002771E7 /* AppDelegate.m in Sources */,
 				0AEF9D031CEBF84800E2A1D0 /* ZHYNavController.m in Sources */,
 				0AEF9D061CEBF86E00E2A1D0 /* ZHYSettingController.m in Sources */,
+				0AEF9D1A1CEC14E400E2A1D0 /* ZHYBaseCellItem.m in Sources */,
 				0AD2D0501CEBF520002771E7 /* main.m in Sources */,
+				0AEF9D261CEC2BA200E2A1D0 /* ZHYSwitchItem.m in Sources */,
 				0AD2D0681CEBF634002771E7 /* ZHYViewController.m in Sources */,
+				0AEF9D171CEC149900E2A1D0 /* ZHYBaseCell.m in Sources */,
+				0AEF9D231CEC2B8000E2A1D0 /* ZHYArrowItem.m in Sources */,
+				0AEF9D111CEC11DA00E2A1D0 /* ZHYGroups.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

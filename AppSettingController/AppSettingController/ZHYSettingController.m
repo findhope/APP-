@@ -45,4 +45,11 @@
         
     }];
 }
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+    
+    //[self.navigationController pushViewController:<#(nonnull UIViewController *)#> animated:YES];
+
+}
 @end
